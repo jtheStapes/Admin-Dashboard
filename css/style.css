@@ -76,6 +76,10 @@ select {
     grid-template: repeat(2, 1fr) / 2.5fr 1fr;
 }
 
+.search {
+    display: flex;
+}
+
 .header > * {
     border: 2px solid black;
 }
