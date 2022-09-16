@@ -53,19 +53,19 @@ select {
     grid-row: 1 / 3;
     grid-column: 1;
     display: grid;
-    grid-template: 100px repeat(5, 50px) 100px repeat(3, 50px) / 1fr;
+    grid-template: 100px repeat(5, 40px) 100px repeat(3, 40px) / 1fr;
     padding: 15px;
 }
 
 .icon {
+    font-size: 1.2rem;
     display: flex;
     gap: 1.5rem;
-    align-items: center;
+    align-items: start;
 }
 
-.icon:nth-child(7),
 .icon:first-child {
-    align-self: start;
+    font-size: 1.5rem;
 }
 
 .header {
