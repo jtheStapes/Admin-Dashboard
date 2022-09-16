@@ -78,7 +78,7 @@ select {
 }
 
 .header > * {
-    padding: 0 0 0 20px;
+    padding-left: 20px;
     align-items: center;
     border: 2px solid black;
 }
@@ -111,5 +111,25 @@ select {
     height: 5rem;
     width: 5rem;
     border-radius: 50%;
-    padding: 0;
+}
+
+.greeting {
+    display: flex;
+}
+
+.greeting-box {
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-left: 50px;
+}
+
+.greeting-pic {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.greeting-name {
+    font-size: 2rem;
 }
