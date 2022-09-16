@@ -133,3 +133,9 @@ select {
 .greeting-name {
     font-size: 2rem;
 }
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+}
