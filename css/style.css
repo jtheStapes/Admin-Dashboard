@@ -74,11 +74,16 @@ select {
     grid-column: 2;
     display: grid;
     grid-template: repeat(2, 1fr) / 2.5fr 1fr;
+    
+}
+
+.header > * {
+    padding: 20px 0 0 20px;
+    border: 2px solid black;
 }
 
 .search {
     display: flex;
-    padding: 20px 0 0 20px;
     gap: 15px;
 }
 
@@ -93,6 +98,10 @@ select {
     background-color: gray;
 }
 
-.header > * {
-    border: 2px solid black;
+.user-info { 
+    display: flex;
+    justify-content: space-around;
+    font: inherit;
+    font-weight: bold;
+    font-size: 1.4rem;
 }
