@@ -78,7 +78,8 @@ select {
 }
 
 .header > * {
-    padding: 20px 0 0 20px;
+    padding: 0 0 0 20px;
+    align-items: center;
     border: 2px solid black;
 }
 
@@ -104,4 +105,11 @@ select {
     font: inherit;
     font-weight: bold;
     font-size: 1.4rem;
+}
+
+.user-profile-pic {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    padding: 0;
 }
