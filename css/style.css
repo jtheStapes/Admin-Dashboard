@@ -78,6 +78,19 @@ select {
 
 .search {
     display: flex;
+    padding: 20px 0 0 20px;
+    gap: 15px;
+}
+
+.search > span > input {
+    border-radius: 10px;
+    border: none;
+    margin: 0;
+    font: 1.4em/1.5em;
+    width: 50vw;
+    height: 3vh;
+    padding: 0 10px;
+    background-color: gray;
 }
 
 .header > * {
