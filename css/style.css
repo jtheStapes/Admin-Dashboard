@@ -16,6 +16,11 @@ body {
     font: inherit;
 }
 
+p {
+    margin: 0;
+    padding: 0;
+}
+
 img,
 picture {
   max-width: 100%;
@@ -49,11 +54,8 @@ select {
     grid-row: 1 / 3;
     grid-column: 1;
     display: grid;
-    grid-template: 1.5fr repeat(5, 1fr) 2fr 1fr 1fr 4fr / 1fr;
-}
-
-.sidebar > div:first-child {
-    font-size: larger;
+    grid-template: 1.5fr repeat(5, 1fr) 2fr 1fr 1fr 4fr / 1fr 3fr;
+    padding: 15px;
 }
 
 .header {
