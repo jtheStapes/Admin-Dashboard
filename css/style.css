@@ -167,11 +167,12 @@ button {
 
 .project-header {
     margin-left: 50px;
-    align-self: end;
 }
 
-.announcements {
+.announcements,
+.project-header {
     align-self: end;
+    font-size: 30px;
 }
 
 .project {
