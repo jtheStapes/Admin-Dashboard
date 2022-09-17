@@ -17,7 +17,7 @@ body {
     font: inherit;
 }
 
-p, h2 {
+p, h2, h3 {
     margin: 0;
     padding: 0;
 }
@@ -162,12 +162,9 @@ button {
     margin-bottom: 50px;
 }
 
-.project-header {
+.project-header,
+.announcements {
     margin-left: 50px;
-}
-
-.announcements,
-.project-header {
     align-self: end;
 }
 
@@ -199,4 +196,28 @@ button {
 .announcement-section {
     display: flex;
     flex-direction: column;
+    border: 5px solid black;
+    gap: 10px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    
+}
+
+.announcement-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.announcement-info > div {
+    border-bottom: 1px solid black;
+    padding: 10px;
+    width: 80%;
+}
+
+.announcement-info > div:last-child {
+    border: none;
 }
