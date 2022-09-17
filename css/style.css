@@ -170,8 +170,24 @@ button {
     align-self: end;
 }
 
+.announcements {
+    align-self: end;
+}
+
 .project {
+    display: flex;
+    flex-direction: column;
     background-color: white;
     border-radius: 6px;
     border-left: 10px solid orange;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.project-info {
+    flex: 2;
+}
+
+.project-icons {
+    align-self: end;
 }
