@@ -243,3 +243,12 @@ button {
     width: 80%;
     justify-content: center;
 }
+
+.trending-users > div:nth-child(odd) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border-radius: 25px;
+    margin: 5px;
+}
