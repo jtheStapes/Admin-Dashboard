@@ -17,7 +17,7 @@ body {
     font: inherit;
 }
 
-p, h2, h3 {
+p, h2, h3, h4 {
     margin: 0;
     padding: 0;
 }
@@ -240,7 +240,10 @@ button {
 }
 
 .trending-users > div:nth-child(even) {
+    display: flex;
+    flex-direction: column;
     width: 80%;
+    justify-content: center;
 }
 
 .trending-users > * {
