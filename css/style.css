@@ -193,3 +193,7 @@ button {
 .project-icons {
     align-self: end;
 }
+
+[class*="icon"] {
+    cursor: pointer;
+}
