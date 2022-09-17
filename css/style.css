@@ -204,12 +204,17 @@ button {
     
 }
 
+.announcement-section > * {
+    border: 5px solid pink;
+}
+
 .announcement-info {
     display: flex;
     align-items: center;
     flex-direction: column;
     background-color: white;
     border-radius: 5px;
+    flex: 4;
 }
 
 .announcement-info > div {
@@ -220,4 +225,20 @@ button {
 
 .announcement-info > div:last-child {
     border: none;
+}
+
+.trending-header {
+    display: flex;
+    flex: 1;
+    align-items: flex-end;
+}
+
+.trending-users {
+    flex: 4;
+    display: grid;
+    grid-template: repeat(4, 1fr) / 1fr 3fr;
+}
+
+.trending-users > * {
+    border: 3px solid black;
 }
