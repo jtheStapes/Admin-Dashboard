@@ -45,6 +45,8 @@ select {
     background-color: #cbd5e1;
     grid-row: 2;
     grid-column: 2;
+    display: grid;
+    grid-template: 1fr 10fr / 3fr 1fr;
 }
 
 .sidebar {
@@ -151,11 +153,6 @@ button {
     cursor: pointer;
 }
 
-.main {
-    display: grid;
-    grid-template: 1fr 10fr / 4fr 1fr;
-}
-
 .projects {
     display: grid;
     grid-template: repeat(3, 1fr) / repeat(2, 1fr);
@@ -172,7 +169,6 @@ button {
 .announcements,
 .project-header {
     align-self: end;
-    font-size: 30px;
 }
 
 .project {
@@ -189,7 +185,7 @@ button {
 
 .project-info {
     flex: 2;
-    width: 70%;
+    width: 80%;
 }
 
 .project-icons {
@@ -198,4 +194,9 @@ button {
 
 [class*="icon"] {
     cursor: pointer;
+}
+
+.announcement-section {
+    display: flex;
+    flex-direction: column;
 }
