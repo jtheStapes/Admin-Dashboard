@@ -182,10 +182,12 @@ button {
     border-left: 10px solid orange;
     padding: 20px;
     justify-content: space-between;
+    font-size: 20px;
 }
 
 .project-info {
     flex: 2;
+    width: 70%;
 }
 
 .project-icons {
