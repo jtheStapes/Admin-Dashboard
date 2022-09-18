@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+:root {
+    font-size: calc(0.625rem + 0.4vw);
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -61,7 +65,7 @@ select {
 }
 
 .icon {
-    font-size: 1.2rem;
+    
     display: flex;
     gap: 1.5rem;
     align-items: start;
